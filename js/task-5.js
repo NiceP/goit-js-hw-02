@@ -1,7 +1,8 @@
 "use strict"
 
 const checkForSpam = function(message) {
-    if(~message.toLowerCase().indexOf('spam') || ~message.toLowerCase().indexOf('sale'))
+
+    if(message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale'))
         return true
     else
         return false

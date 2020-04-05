@@ -19,7 +19,7 @@ while (cycle) {
     }
 
 }
-
+if (numbers.length)
 for(const number of numbers){
     total+=Number(number);
 }
